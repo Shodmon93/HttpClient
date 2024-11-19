@@ -1,0 +1,7 @@
+@RecipeFinder_HostAddress = https://localhost:7211
+
+GET {{RecipeFinder_HostAddress}}/api/Recipe/GetRecipes?ingredient=chicken
+Accept: application/json
+
+
+###
